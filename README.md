@@ -57,5 +57,33 @@ Créer un fichier .gitignore :
 `git remote add origin https://github.com/marionBouteille/Csharp.git`
 `git push origin master`  
 
+Ajouter un tag version 0.1  
+`git tag v0.1` 
+`git push origin v0.1` 
 
+### Ajout d'exercices "hors projet"  
+Dans le projet Library :  
+- Créer un dossier Lessons  
+- Créer une classe 01_Types(fichier 01_Types.cs)  
 
+Inclure toute la structure d'une classe :  
+- `using`(imports du java)  
+- `namespace`(package du java)  
+- `class`  
+
+### B_Enumerqtions  
+Ce chapitre passe en revue les `enum`.  
+Dans le projet Library, créer cette classe.  
+
+### C_Arrays  
+Ce chapitre traite des tableaux "primitifs" du style `object[]` ou `object[][]`  
+Créer la classe C_Arrays avec un eméthode d'éxécution et l'appeler dans le main.  
+
+### C_MyCollection  
+But : créer une classe de tableau mutable de string.  
+Ce type de classe peut être ArrayList, list, MutableArray, ..., selon les langages et API  
+
+Créer D_MyCollection dans Lesson, avec méthode d'éxecution et appel dans main  
+Créer à la racine de Library une classe 'MyCollection'.  
+Crér à la racine de Library une interface `IMyCollection`  
+'MyCollection' doit implémenter l'interface `IMyCollection`
